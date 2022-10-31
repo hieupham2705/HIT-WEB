@@ -1,0 +1,89 @@
+body{
+    background-color: hsl(228, 45%, 44%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 300px;
+    height: 500px;
+    background-color: hsl(229, 41%, 27%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+.im{
+    width: 300px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mg1{
+    /* margin: auto; */
+    /* background-color: red; */
+    width: 270px;
+    height: 30px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.word1{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.word2{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mg2{
+    width: 270px;
+    height: 45px;
+}
+.khoi{
+    width: 300px;
+    height: 30px;
+    display: flex;
+}
+.bottom{
+    margin: 0 15px 0 15px;
+    width: 300;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid black;
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 7px;
+}
+.w{
+    height: 30px;
+    margin-left: 3px;
+    display: flex;
+}
+
+
+.mgg{
+    /* margin-top: 50px; */
+    width: 270px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top:  2px solid black;
+}
