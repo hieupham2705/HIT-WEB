@@ -1,57 +1,52 @@
-
-body{
-    background-color: white;
+.container{
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
 }
-.h{
-    width: 30%;
+.chu_h{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-.i{
-    width: 5%;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    
-}
-.t{
-    width: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    /* align-items: center; */
-}
-.hit1{
-    width: 5%;
-}
-.hit3{
-    width: 40%;
-    display: flex;
-    align-items: center;
-}
+    margin-right: 20px;
+} 
 .a{
-    background-color: yellow;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(191, 39, 155);
+    border: 2px solid white;
 }
-.b{
-    background-color: white;
-    width: 30px;
-    height: 30px;
-}
-.tren{
+.cot1{
     display: flex;
+    flex-direction: column;
+    /* align-items: center; */
     justify-content: center;
 }
-.duoi{
+.cot2{
+    display: flex;
+    align-items: center;
+}
+.chu_t{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+.dong1{
+    display: flex;
+}
+.dong2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}   
+}
+.dong{
+    display: flex;
+    justify-content: end;
+}
+.so_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
